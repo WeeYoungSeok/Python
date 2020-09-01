@@ -1,0 +1,14 @@
+1. inventory collection에서 qty만 출력하시오!!
+ex) {"qty" : 100} 이런식으로 전부
+
+2. inventory collection에서 qty가 25보다 작거나 같은것들을 출력!
+
+3. inventory collection에서 item이 mousepad인것을 찾아서
+   $inc을 사용하여 qty를 -10시켜서 15로 만들자!
+
+4. inventory collection에서 item이 canvas인것을 찾아서
+   $rename을 이용하여 "item" 필드명을 "tem"으로 바꾸자!
+   (multi: true를 이용해서 한번에 바꾸자!)
+
+5. inventory collection에서 item이 postcard인것을 찾아서
+   $unset을 이용하여 size와 qty를 삭제하자!
